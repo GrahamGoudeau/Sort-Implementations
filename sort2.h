@@ -1,10 +1,11 @@
 //
-//  SelectionSort.h
-//  Header File for SelectionSort class
+//  sort2.h
+//  (quicksort)
+//  Header File for quicksort class
 //
 
-#ifndef __Sorting__SelectionSort__
-#define __Sorting__SelectionSort__
+#ifndef SORT2_H 
+#define SORT2_H
 
 #include <iostream>
 
@@ -13,10 +14,10 @@ struct arrayWithLength{
         int *arr;
 };
 
-class SelectionSort {
+class Quicksort {
 public:
-        SelectionSort(); // constructor
-	~SelectionSort(); // destructor
+        Quicksort(); // constructor
+	~Quicksort(); // destructor
         
         // read in a list of values from stdin
         void readList();
@@ -29,7 +30,9 @@ public:
         
 private:
         arrayWithLength sortArray;
+	void quicksort(int left, int right);
+	int partition(int left, int right);
 };
 
-#endif /* defined(__Sorting__SelectionSort__) */
+#endif /* defined(__Sorting__Quicksort__) */
 

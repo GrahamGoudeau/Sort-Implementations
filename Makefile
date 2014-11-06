@@ -17,7 +17,7 @@ selectionSort: SelectionSort.cpp SelectionSort.h main1.cpp
 sort2: sort2.cpp sort2.h main2.cpp
 	${CXX} ${FLAGS} -o sort2 sort2.cpp main2.cpp
 	
-sort3: sort3.cpp sort3.h main2.cpp
+sort3: sort3.cpp sort3.h main3.cpp
 	${CXX} ${FLAGS} -o sort3 sort3.cpp main3.cpp
 	
 clean:
