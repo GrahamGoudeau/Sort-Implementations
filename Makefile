@@ -1,6 +1,6 @@
 #
 # Makefile for Sorts, Assignment 5
-#
+# (Provided by instructor)
 CXX = clang++
 FLAGS = -Wall -Wextra -Wconversion -g
 
